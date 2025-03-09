@@ -7,4 +7,5 @@ select Products.ProductID, ProductName, sum(OrderItems.Quantity * OrderItems.Pri
 from Products
 join OrderItems
 on Products.ProductID = OrderItems.ProductID
+group by Products.ProductID, Products.ProductName
 order by OrderItems.ProductID;
