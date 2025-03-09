@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/03-database-joins/database-joins/pom.xml" />
+        <option value="$PROJECT_DIR$/06-classes-in-java/classes-in-java/pom.xml" />
+        <option value="$PROJECT_DIR$/10-java-unit-testing/java-unit-testing/pom.xml" />
+        <option value="$PROJECT_DIR$/01-creating-databases/creating-databases/pom.xml" />
+        <option value="$PROJECT_DIR$/13-jpa-in-spring-boot/jpa-in-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/04-database-subqueries/database-subqueries/pom.xml" />
+        <option value="$PROJECT_DIR$/07-inheritance-in-java/inheritance-in-java/pom.xml" />
+        <option value="$PROJECT_DIR$/11-spring-boot-and-mvc/spring-boot-and-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/08-error-handling-in-java/error-handling-in-java/pom.xml" />
+        <option value="$PROJECT_DIR$/09-data-structures-in-java/data-structures-in-java/pom.xml" />
+        <option value="$PROJECT_DIR$/02-basic-crud-database-queries/basic-crud-database-queries/pom.xml" />
+        <option value="$PROJECT_DIR$/12-testing-rest-apis-with-postman/testing-rest-apis-with-postman/pom.xml" />
+        <option value="$PROJECT_DIR$/05-java-and-object-oriented-programming/java-and-object-oriented-programming/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="openjdk-23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

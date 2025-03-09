@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-unit-testing" />
+        <module name="basic-crud-database-queries" />
+        <module name="data-structures-in-java" />
+        <module name="java-and-object-oriented-programming" />
+        <module name="inheritance-in-java" />
+        <module name="creating-databases" />
+        <module name="classes-in-java" />
+        <module name="spring-boot (1)" />
+        <module name="error-handling-in-java" />
+        <module name="spring-boot" />
+        <module name="database-subqueries" />
+        <module name="spring-boot (2)" />
+        <module name="database-joins" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot (1)" options="-parameters" />
+      <module name="spring-boot (2)" options="-parameters" />
+    </option>
+  </component>
+</project>

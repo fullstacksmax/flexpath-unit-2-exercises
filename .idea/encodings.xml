@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01-creating-databases/creating-databases/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-creating-databases/creating-databases/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-basic-crud-database-queries/basic-crud-database-queries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02-basic-crud-database-queries/basic-crud-database-queries/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-database-joins/database-joins/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-database-joins/database-joins/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-database-subqueries/database-subqueries/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-database-subqueries/database-subqueries/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-java-and-object-oriented-programming/java-and-object-oriented-programming/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-java-and-object-oriented-programming/java-and-object-oriented-programming/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-classes-in-java/classes-in-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-classes-in-java/classes-in-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-inheritance-in-java/inheritance-in-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-inheritance-in-java/inheritance-in-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-error-handling-in-java/error-handling-in-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-error-handling-in-java/error-handling-in-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-data-structures-in-java/data-structures-in-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-data-structures-in-java/data-structures-in-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-java-unit-testing/java-unit-testing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-java-unit-testing/java-unit-testing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-spring-boot-and-mvc/spring-boot-and-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-testing-rest-apis-with-postman/testing-rest-apis-with-postman/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-jpa-in-spring-boot/jpa-in-spring-boot/src/main/java" charset="UTF-8" />
+  </component>
+</project>
