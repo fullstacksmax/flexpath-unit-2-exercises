@@ -3,3 +3,7 @@
 -- The result should display the ProductID and the TotalQuantityOrdered ONLY for products that have
 -- been ordered more than once.
 -- Order the results by ProductID in ascending order.
+SELECT ProductID, sum(quantity) as TotalQuantityOrdered from OrderItems
+GROUP BY ProductID
+HAVING sum(quantity) > 1 or count(ProductID) > 1
+ORDER BY ProductID;

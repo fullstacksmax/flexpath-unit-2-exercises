@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57096f7-adea-4e54-8363-acc5b7a79195" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/main/resources/create-database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/main/resources/create-database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/test/java/TestCreateScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-creating-databases/creating-databases/src/test/java/TestCreateScript.java" afterDir="false" />
+    <list default="true" id="a57096f7-adea-4e54-8363-acc5b7a79195" name="Changes" comment="thru ex3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/01-get-la-users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/01-get-la-users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/02-unique-user-cities.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/02-unique-user-cities.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/03-revenue-per-product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/03-revenue-per-product.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExerciseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExerciseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/04-frequently-ordered.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/04-frequently-ordered.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.ExerciseTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExerciseTests.test01GetLAUsers.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExerciseTests.test02UniqueUserCities.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ExerciseTests.test03RevenuePerProduct.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Coding/Launch Code/flexpath-unit-2-exercises/02-basic-crud-database-queries/basic-crud-database-queries/pom.xml&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ExerciseTests.executor": "Run",
+    "JUnit.ExerciseTests.test01GetLAUsers.executor": "Run",
+    "JUnit.ExerciseTests.test02UniqueUserCities.executor": "Run",
+    "JUnit.ExerciseTests.test03RevenuePerProduct.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Coding/Launch Code/flexpath-unit-2-exercises/03-database-joins/database-joins/pom.xml",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.ExerciseTests">
     <configuration name="ExerciseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basic-crud-database-queries" />
@@ -111,6 +106,36 @@
       <option name="presentableId" value="Default" />
       <updated>1730305012841</updated>
     </task>
+    <task id="LOCAL-00001" summary="on ex 3">
+      <option name="closed" value="true" />
+      <created>1741553017064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553017064</updated>
+    </task>
+    <task id="LOCAL-00002" summary="on ex 3">
+      <option name="closed" value="true" />
+      <created>1741553021506</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553021506</updated>
+    </task>
+    <task id="LOCAL-00003" summary="thru ex3">
+      <option name="closed" value="true" />
+      <created>1741553220907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741553220907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="on ex 3" />
+    <MESSAGE value="thru ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="thru ex3" />
   </component>
 </project>

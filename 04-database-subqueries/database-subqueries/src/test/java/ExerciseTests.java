@@ -22,7 +22,7 @@ public class ExerciseTests {
         var configBuilder = DBConfigurationBuilder.newBuilder();
         configBuilder.setPort(0);
         db = DB.newEmbeddedDB(configBuilder.build());
-        db.start();
+        db.start();db.createDB("test", "root", "");
 
         connection = DriverManager.getConnection(
             "jdbc:mariadb://localhost:" + db.getConfiguration().getPort() + "/test",
