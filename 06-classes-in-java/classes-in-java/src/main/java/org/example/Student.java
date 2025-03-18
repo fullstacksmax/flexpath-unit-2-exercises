@@ -9,6 +9,11 @@ public class Student {
     // lastName (String)
     // classNumber (int)
     // className (String)
+    public String firstName;
+    public String lastName;
+    public int classNumber;
+    public String className;
+
 
     // TODO: Implement correct code for getters/setters
 
@@ -18,7 +23,7 @@ public class Student {
      * @return first name of the student
      */
     public String getFirstName() {
-        return null;
+        return this.firstName;
     }
 
     /**
@@ -27,6 +32,7 @@ public class Student {
      * @param firstName first name of the student
      */
     public void setFirstName(String firstName) {
+        this.firstName = firstName;
 
     }
 
@@ -36,7 +42,7 @@ public class Student {
      * @return last name of the student
      */
     public String getLastName() {
-        return null;
+        return this.lastName;
     }
 
     /**
@@ -45,7 +51,7 @@ public class Student {
      * @param lastName last name of the student
      */
     public void setLastName(String lastName) {
-
+        this.lastName = lastName;
     }
 
     /**
@@ -54,7 +60,7 @@ public class Student {
      * @return class number of the student
      */
     public int getClassNumber() {
-        return 0;
+        return this.classNumber;
     }
 
     /**
@@ -63,7 +69,7 @@ public class Student {
      * @param classNumber class number of the student
      */
     public void setClassNumber(int classNumber) {
-
+            this.classNumber = classNumber;
     }
 
     /**
@@ -72,7 +78,7 @@ public class Student {
      * @return class name of the student
      */
     public String getClassName() {
-        return null;
+        return this.className;
     }
 
     /**
@@ -81,7 +87,7 @@ public class Student {
      * @param className class name of the student
      */
     public void setClassName(String className) {
-
+            this.className = className;
     }
 
     /**
@@ -94,6 +100,10 @@ public class Student {
      */
     public Student(String firstName, String lastName, int classNumber, String className) {
         // TODO: Set instance variables
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.classNumber = classNumber;
+        this.className = className;
     }
 
     /**
@@ -104,6 +114,6 @@ public class Student {
     public String toString() {
         // TODO: Return a string representation of the student in this format:
         // firstName lastName (classNumber - className)
-        return "NOT IMPLEMENTED";
+        return this.firstName + " " + this.lastName + " (" + this.classNumber + " - " + this.className + ")";
     }
 }

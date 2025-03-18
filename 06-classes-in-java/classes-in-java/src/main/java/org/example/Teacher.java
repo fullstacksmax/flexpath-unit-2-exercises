@@ -8,6 +8,9 @@ public class Teacher {
     // firstName (String)
     // lastName (String)
     // subject (String)
+    public String firstName;
+    public String lastName;
+    public String subject;
 
     // TODO: Implement correct code for getters/setters
     /**
@@ -16,7 +19,7 @@ public class Teacher {
      * @return first name of the teacher
      */
     public String getFirstName() {
-        return null;
+        return this.firstName;
     }
 
     /**
@@ -25,7 +28,7 @@ public class Teacher {
      * @param firstName first name of the teacher
      */
     public void setFirstName(String firstName) {
-
+        this.firstName = firstName;
     }
 
     /**
@@ -34,7 +37,7 @@ public class Teacher {
      * @return last name of the teacher
      */
     public String getLastName() {
-        return null;
+        return this.lastName;
     }
 
     /**
@@ -43,7 +46,7 @@ public class Teacher {
      * @param lastName last name of the teacher
      */
     public void setLastName(String lastName) {
-
+        this.lastName = lastName;
     }
 
     /**
@@ -52,7 +55,7 @@ public class Teacher {
      * @return subject taught by the teacher
      */
     public String getSubject() {
-        return null;
+        return this.subject;
     }
 
     /**
@@ -61,7 +64,7 @@ public class Teacher {
      * @param subject subject taught by the teacher
      */
     public void setSubject(String subject) {
-
+        this.subject = subject;
     }
 
     /**
@@ -73,6 +76,9 @@ public class Teacher {
      */
     public Teacher(String firstName, String lastName, String subject) {
         // TODO: Set instance variables
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.subject = subject;
     }
 
     /**
@@ -83,6 +89,6 @@ public class Teacher {
     public String toString() {
         // TODO: Return a string representation of the teacher in this format:
         // firstName lastName (subject)
-        return "NOT IMPLEMENTED";
+        return this.firstName + " " + this.lastName + " (" + this.subject + ")";
     }
 }
