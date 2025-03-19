@@ -15,12 +15,15 @@ public class Main {
     /**
      * List of animals in the zoo.
      */
+
+
+
     private static List<Animal> animals = List.of(
             // TODO: Uncomment these two lines after implementing the Parrot class
-            /*
+
             new Parrot("Polly"),
-            new Parrot("Loki"),
-            */
+            new Parrot("Loki"));
+
             // TODO: Uncomment these two lines after implementing the Lion class
             /*
             new Lion("Simba"),
@@ -31,7 +34,7 @@ public class Main {
             new Elephant("Dumbo"),
             new Elephant("Jumbo")
              */
-    );
+
 
     /**
      * Main method to manage the zoo.
@@ -74,3 +77,4 @@ public class Main {
         }
     }
 }
+
