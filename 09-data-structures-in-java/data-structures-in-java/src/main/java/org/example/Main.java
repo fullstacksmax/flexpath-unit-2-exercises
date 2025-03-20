@@ -13,7 +13,12 @@ public class Main {
      */
     public static List<String> getStudentNamesList() {
         // TODO: return a list of student names (John, Jane, Alice, Bob)
-        return new ArrayList<>();
+        ArrayList<String> students = new ArrayList<String>();
+        students.add("John");
+        students.add("Jane");
+        students.add("Alice");
+        students.add("Bob");
+        return new ArrayList<>(students);
     }
 
     /**
@@ -24,7 +29,11 @@ public class Main {
     public static List<String> getMStudents(List<String> students) {
         List<String> mStudents = new ArrayList<>();
 
-        // TODO: Populate mStudents from students, copying over only students whose names start with "M"
+        for(String student : students) {
+            if(student.charAt(0) == 'M') {
+                mStudents.add(student);
+            }
+        }
 
         return mStudents;
     }
@@ -40,6 +49,16 @@ public class Main {
 
         // TODO: Poll the queue three times and add the items to firstThree
 
+
+
+        for(int i = 0; i < 3; i++){
+            firstThree.add(queue.poll());
+        }
+        // or this
+        /*firstThree.add(queue.poll());
+        firstThree.add(queue.poll());
+        firstThree.add(queue.poll());*/
+
         return firstThree;
     }
 
@@ -52,6 +71,9 @@ public class Main {
         var set = new HashSet<String>();
 
         // TODO: Put all students into the set
+        for(String student : students) {
+            set.add(student);
+        }
 
         return set;
     }
@@ -65,7 +87,11 @@ public class Main {
      */
     public static boolean checkIfHashSetContainsAny(Set<String> haystack, List<String> needles) {
         // TODO: Loop through all needles and return true if any of them are in the haystack
-
+        for(String needle : needles) {
+            if(haystack.contains(needle)) {
+                return true;
+            }
+        }
         // Return false if none of the needles are in the haystack
         return false;
     }
@@ -81,6 +107,9 @@ public class Main {
         HashMap<String, Double> map = new HashMap<>();
 
         // TODO: Populate the map with students as keys and grades as values
+        for(int i = 0; i < students.size(); i++) {
+            map.put(students.get(i), grades.get(i));
+        }
 
         return map;
     }
