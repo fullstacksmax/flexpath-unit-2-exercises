@@ -14,15 +14,18 @@ public class BookController {
             new Book(4, "Beloved", "Toni Morrison", 1987),
             new Book(5, "The Color Purple", "Alice Walker", 1982)
     ));
-
+    @GetMapping
     public List<Book> getBooks() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        return (books.stream().toList());
+    }
+    @GetMapping("/{id}")
+    public Book getBookById(@PathVariable("id") int id) {
+
+
+        return (books.stream().filter(book -> book.getId() == id).findFirst().orElse(null));
     }
 
-    public Book getBookById(int id) {
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
-
+    @PostMapping
     public void addBook(Book book) {
         throw new UnsupportedOperationException("Not implemented yet");
     }
