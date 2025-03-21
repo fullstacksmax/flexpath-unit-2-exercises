@@ -45,6 +45,6 @@ public class Account {
      */
     public boolean withdraw(double amount) {
         balance -= amount;
-        return true;
+        return balance >= 0;
     }
 }

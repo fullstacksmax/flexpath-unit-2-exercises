@@ -109,6 +109,7 @@ public class Main {
         // TODO: Populate the map with students as keys and grades as values
         for(int i = 0; i < students.size(); i++) {
             map.put(students.get(i), grades.get(i));
+            map.
         }
 
         return map;
