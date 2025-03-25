@@ -26,15 +26,28 @@ public class BookController {
     }
 
     @PostMapping
-    public void addBook(Book book) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    public void addBook(@RequestBody Book book) {
+        books.add(book);
+    }
+    @PutMapping("/{id}")
+    public void updateBook(@PathVariable int id, @RequestBody Book book) {
+        for (int i = 0; i < books.size(); i++) {
+            if (books.get(i).getId() == id) {
+                books.set(i, book);  // Update the book in the list
+                return;
+            }
+        }
     }
 
-    public void updateBook(int id, Book book) {
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
 
-    public void deleteBook(int id) {
-        throw new UnsupportedOperationException("Not implemented yet");
+    @DeleteMapping("/{id}")
+    public void deleteBook(@PathVariable int id) {
+        Iterator<Book> iter = books.iterator();
+        while (iter.hasNext()) {
+            Book book = iter.next();
+            if (book.getId() == id) {
+                iter.remove();
+            }
+        }
     }
 }
